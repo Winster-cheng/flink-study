@@ -19,7 +19,7 @@ object FileSource01 {
       println("----------------Second Job-----------------")
       val env2=StreamExecutionEnvironment.getExecutionEnvironment
       val path=new Path("test01");
-      //TODO 这里为什么要输入2次相同的路径,前者应该只是负责读取格式
+      //TODO 这里要输入2次相同的路径,是因为前者只是负责读取格式
       val stream2=env2.readFile(new TextInputFormat(path),"test00");
       stream2.print()
       env2.execute("SecondJob")
