@@ -23,7 +23,8 @@ public class SocketTextStreamWordCount {
         String hostName = args[0];
         Integer port = Integer.parseInt(args[1]);
 
-        //flink程序的第一步是创建一个StreamExecutionEnvironment (或者是ExecutionEnvironment，如果你编写的是一个batch批处理job)。这可以用于设置执行参数和可以设置一个输入源来从外部系统读取数据。
+        //flink程序的第一步是创建一个StreamExecutionEnvironment (或者是ExecutionEnvironment，如果你编写的是一个batch批处理job)。
+        // 这可以用于设置执行参数和可以设置一个输入源来从外部系统读取数据。
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         //创建一个source输入源
