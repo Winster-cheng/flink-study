@@ -10,7 +10,7 @@ import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 object GenerateSequence {
   def main(args: Array[String]): Unit = {
     val env=StreamExecutionEnvironment.getExecutionEnvironment
-    val stream=env.generateSequence(1,10)
+    val stream=env.generateSequence(1,20)
     stream.print()
     env.execute("First Job")
   }
