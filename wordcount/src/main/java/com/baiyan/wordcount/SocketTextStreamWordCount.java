@@ -8,7 +8,7 @@ import org.apache.flink.util.Collector;
 /**
  * @Auther: peilongcheng
  * @Date: 2019/3/26 16:02
- * @Description:
+ * @Description: wordcount演示
  */
 public class SocketTextStreamWordCount {
 
