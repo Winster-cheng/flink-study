@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cfaeab-6a23-4a58-b018-3db69a500039" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/class/target/" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+            <state relative-caret-position="19">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -38,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/GenerateSequence.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="285">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -55,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java" />
         <option value="$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/GenerateSequence.scala" />
+        <option value="$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java" />
       </list>
     </option>
   </component>
@@ -92,96 +102,37 @@
             <path>
               <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="class05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="class05" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="class05" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="fromcollection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-study" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyan" type="462c0819:PsiDirectoryNode" />
-              <item name="class05" type="462c0819:PsiDirectoryNode" />
-              <item name="DataSource" type="462c0819:PsiDirectoryNode" />
-              <item name="readfile" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,16 +192,15 @@
       <option name="presentableId" value="Default" />
       <updated>1567147949242</updated>
       <workItem from="1567147953385" duration="3409000" />
-      <workItem from="1567455570423" duration="597000" />
+      <workItem from="1567455570423" duration="1512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4006000" />
+    <option name="totallyTimeSpent" value="4921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,13 +237,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -303,8 +246,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/GenerateSequence.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordcount/src/main/java/com/baiyan/wordcount/SocketTextStreamWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
