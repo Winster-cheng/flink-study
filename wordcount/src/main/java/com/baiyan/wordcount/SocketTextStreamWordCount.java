@@ -8,7 +8,7 @@ import org.apache.flink.util.Collector;
 /**
  * @Auther: peilongcheng
  * @Date: 2019/3/26 16:02
- * @Description: wordcount演示,这里直接通过getExecutionEnvironment生成环境
+ * @Description: wordcount演示,这里直接通过getExecutionEnvironment生成环境，通过SocketTextStream获取数据
  */
 public class SocketTextStreamWordCount {
 
