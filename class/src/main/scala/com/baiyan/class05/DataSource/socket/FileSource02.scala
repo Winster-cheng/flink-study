@@ -5,7 +5,7 @@ import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 /*
   * @Auther: peilongcheng
   * @Date: 2019/5/21 17:38
-  * @Description:基于 Socket 的数据源，通过nc -l 启动端口
+  * @Description:获取数据，基于 Socket 的数据源，通过nc -l 启动端口
   */
 object FileSource02 {
   def main(args: Array[String]): Unit = {
