@@ -23,12 +23,16 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
 运行kafkaConsumerConnector，同时producer发送消息（kafka-console-producer --broker-list localhost:9092 --topic test1
 ），效果图如下
 - producer
+
 ![](.README_images/5190068a.png)
+
 - consumer
+
 ![](.README_images/bf18c9d9.png)
 
 #### 1.4 要点&要点说明
 - 这里只是简单的说明了flink如何接收kafka的消息，官网的文档如下
+
 ![](.README_images/1a0abd37.png)
 
 
@@ -48,7 +52,10 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
  - setflushoncheckpoint(boolean)：默认情况下，设置为true。启用此选项后，Flink的检查点将等待检查点时的任何动态记录被Kafka确认，然后才能继续检查点。这可以确保检查点之前的所有记录都已写入卡夫卡。必须至少启用一次。
  
  注意:默认情况下，重试次数设置为“0”。这意味着，setLogFailuresOnly=false，生产者会在错误（包括leader变更）时立即失败。默认情况下，该值设置为“0”，以避免目标主题中由重试引起的重复消息。对于大多数频繁更改代理的生产环境，我们建议将重试次数设置为更高的值。
-#### 说明：
+ 
+##2.hdfs connector
+
+##3 说明：
 - 1.flink connectors指的是Streaming connectors
 
 - 2.该版本为1.6版本，flink已经发布了1.9版本。
