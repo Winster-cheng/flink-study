@@ -54,6 +54,16 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
  注意:默认情况下，重试次数设置为“0”。这意味着，setLogFailuresOnly=false，生产者会在错误（包括leader变更）时立即失败。默认情况下，该值设置为“0”，以避免目标主题中由重试引起的重复消息。对于大多数频繁更改代理的生产环境，我们建议将重试次数设置为更高的值。
  
 ##2.hdfs connector
+####2.1 添加maven
+```
+<dependency>
+  <groupId>org.apache.flink</groupId>
+  <artifactId>flink-connector-filesystem_2.11</artifactId>
+  <version>1.6.1</version>
+</dependency>
+```
+####2.2 运行代码
+
 
 ##3 说明：
 - 1.flink connectors指的是Streaming connectors
