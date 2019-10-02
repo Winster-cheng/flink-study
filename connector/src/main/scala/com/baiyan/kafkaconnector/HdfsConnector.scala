@@ -32,9 +32,10 @@ object HdfsConnector {
     date.setWriter(new StringWriter())
     // this is 400 MB
     date.setBatchSize(1024 * 1024 * 400L)
-    // this is 60 mins
-    date.setBatchRolloverInterval(60 * 60 * 1024L)
-
+    // this is 10 seconds
+    date.setBatchRolloverInterval(10*1000L)
+//    date.setInactiveBucketCheckInterval(1);
+//    date.setInactiveBucketThreshold
     counts.addSink(date)
 
     env.execute("KafkaTest")

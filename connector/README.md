@@ -46,7 +46,7 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
 - 继承FlinkKafkaPartitioner自定义分区类，注意，分区器实现必须是可序列化的，并且由于分区程序不是生产者的检查点状态的一部分，因此分区程序中的任何状态都将在作业失败时丢失
 - 提供null作为自定义分区器，kafka通过其附加的密钥对写入的记录进行分区（根据使用提供的序列化模式为每个记录确定）
 
-#### 1.4.3 kafka容错
+##### 1.4.3 kafka容错
 使用：启用Flink的检查点后+配置setLogFailuresOnly(boolean)+配置setFlushOnCheckpoint(boolean)
  - setLogFailuresOnly(boolean)：默认情况下，设置为false。启用此选项将使生产者只记录失败，而不是捕获并重新触发它们。这基本上说明了记录是成功的，即使它从未写到目标卡夫卡主题。必须至少禁用一次。
  - setflushoncheckpoint(boolean)：默认情况下，设置为true。启用此选项后，Flink的检查点将等待检查点时的任何动态记录被Kafka确认，然后才能继续检查点。这可以确保检查点之前的所有记录都已写入卡夫卡。必须至少启用一次。
@@ -64,11 +64,30 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
 <dependency>
   <groupId>org.apache.hadoop</groupId>
   <artifactId>hadoop-core</artifactId>
-  <version>1.1.0</version>
+  <version>2.7.0</version>
 </dependency>
 ```
 ####2.2 运行代码
+- kafka发送消息：
 
+  ![](.README_images/c5f1943e.png)
+- flink处理消息：
+
+  ![](.README_images/494f0778.png)
+  
+- hdfs存储：
+ 
+ ![](.README_images/eb462aaa.png)
+ 
+
+####2.3 要点说明
+#####2.3.1 sink类型：BucketingSink，StreamFileSink
+
+#####2.3.2 BucketingSink参数调优
+
+#####2.3.3 输出parquet文件到hdfs
+
+#### 2.3.4 writer类型
 
 ##3 说明：
 - 1.flink connectors指的是Streaming connectors
