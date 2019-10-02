@@ -25,15 +25,15 @@ object HdfsConnector {
     val counts: DataStream[(String, Int)] = unit.flatMap(x => x.split(" ")).map(x => (x, 1)).keyBy(0).sum(1)
 
     counts.print()
-
+//桶的路径是唯一需要的方式
     val date: BucketingSink[(String,Int)] = new BucketingSink("hdfs://localhost:9000/flink")
 
 
     date.setWriter(new StringWriter())
-    // this is 400 MB
-    date.setBatchSize(1024 * 1024 * 400L)
-    // this is 10 seconds
-    date.setBatchRolloverInterval(10*1000L)
+//    // this is 400 MB
+//    date.setBatchSize(1024 * 1024 * 400L)
+//    // this is 10 seconds
+//    date.setBatchRolloverInterval(10*1000L)
 //    date.setInactiveBucketCheckInterval(1);
 //    date.setInactiveBucketThreshold
     counts.addSink(date)
