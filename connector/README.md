@@ -61,6 +61,11 @@ flink-kafka使用者与flink的检查点机制集成，以提供精确的一次�
   <artifactId>flink-connector-filesystem_2.11</artifactId>
   <version>1.6.1</version>
 </dependency>
+<dependency>
+  <groupId>org.apache.hadoop</groupId>
+  <artifactId>hadoop-core</artifactId>
+  <version>1.1.0</version>
+</dependency>
 ```
 ####2.2 运行代码
 
