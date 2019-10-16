@@ -12,6 +12,7 @@
         <module>wordcount</module>
         <module>class</module>
         <module>connector</module>
+        <module>checkpoint</module>
     </modules>
 
     <properties>
