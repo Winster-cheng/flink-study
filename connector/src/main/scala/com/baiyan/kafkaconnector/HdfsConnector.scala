@@ -10,7 +10,8 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer08
 import org.apache.flink.streaming.util.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.api.scala._
-
+/*
+ */
 object HdfsConnector {
   def main(args: Array[String]): Unit = {
     val env=StreamExecutionEnvironment.getExecutionEnvironment
