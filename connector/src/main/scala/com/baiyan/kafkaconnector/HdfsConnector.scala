@@ -12,7 +12,6 @@ import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.api.scala._
 /*
 从kafka读取消息并且写入hdfs，核心是addSource+addSink
-
  */
 object HdfsConnector {
   def main(args: Array[String]): Unit = {
@@ -31,7 +30,12 @@ object HdfsConnector {
 
 
     date.setWriter(new StringWriter())
-
+//    // this is 400 MB
+//    date.setBatchSize(1024 * 1024 * 400L)
+//    // this is 10 seconds
+//    date.setBatchRolloverInterval(10*1000L)
+//    date.setInactiveBucketCheckInterval(1);
+//    date.setInactiveBucketThreshold
     counts.addSink(date)
 
     env.execute("KafkaTest")
