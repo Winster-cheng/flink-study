@@ -11,7 +11,6 @@ import org.apache.flink.streaming.util.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.api.scala._
 /*
-从kafka读取消息并且写入hdfs，核心是addSource+addSink
  */
 object HdfsConnector {
   def main(args: Array[String]): Unit = {
@@ -27,7 +26,6 @@ object HdfsConnector {
     counts.print()
 //桶的路径是唯一需要的
     val date: BucketingSink[(String,Int)] = new BucketingSink("hdfs://localhost:9000/flink")
-
 
     date.setWriter(new StringWriter())
 //    // this is 400 MB
