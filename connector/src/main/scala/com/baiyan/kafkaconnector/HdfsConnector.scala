@@ -15,7 +15,6 @@ import org.apache.flink.api.scala._
 object HdfsConnector {
   def main(args: Array[String]): Unit = {
     val env=StreamExecutionEnvironment.getExecutionEnvironment
-    val properties = new Properties()
     properties.setProperty("bootstrap.servers", "localhost:9092")
     // only required for Kafka 0.8
     properties.setProperty("zookeeper.connect", "localhost:2181")
