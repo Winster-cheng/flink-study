@@ -25,7 +25,6 @@ object HdfsConnector {
 
     counts.print()
     //桶的路径是唯一需要的
-    val date: BucketingSink[(String,Int)] = new BucketingSink("hdfs://localhost:9000/flink")
 
     date.setWriter(new StringWriter())
     //    // this is 400 MB
