@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="19" />
+            <state relative-caret-position="323">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="e#54#89#0" expanded="true" />
               </folding>
@@ -93,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +161,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,16 +230,17 @@
       <workItem from="1580200802991" duration="936000" />
       <workItem from="1580436885488" duration="627000" />
       <workItem from="1580539859379" duration="2550000" />
+      <workItem from="1580715091374" duration="168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15280000" />
+    <option name="totallyTimeSpent" value="15448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33109918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33579087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
+        <state relative-caret-position="323">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="e#54#89#0" expanded="true" />
           </folding>
