@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wordcount" />
         <module name="class" />
+        <module name="checkpoint" />
+        <module name="connector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="class" target="1.5" />
-      <module name="flink-study" target="1.5" />
-      <module name="wordcount" target="1.5" />
+      <module name="checkpoint" target="1.8" />
+      <module name="class" target="1.8" />
+      <module name="connector" target="1.8" />
+      <module name="flink-study" target="1.8" />
+      <module name="wordcount" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
