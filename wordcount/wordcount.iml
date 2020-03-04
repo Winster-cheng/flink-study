@@ -9,6 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="scala-sdk-2.11.11" level="application" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-java:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-core:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-annotations:1.6.1" level="project" />
@@ -136,6 +137,5 @@
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.7" level="project" />
     <orderEntry type="library" name="Maven: org.tukaani:xz:1.5" level="project" />
     <orderEntry type="library" name="Maven: it.unimi.dsi:fastutil:7.0.13" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.11.11" level="application" />
   </component>
 </module>
