@@ -136,6 +136,7 @@
       <workItem from="1582535217458" duration="635000" />
       <workItem from="1582627988297" duration="1398000" />
       <workItem from="1582876175826" duration="4908000" />
+      <workItem from="1583055945140" duration="743000" />
     </task>
     <servers />
   </component>
@@ -171,6 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581648697695" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583056055386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1583056055386" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1581647682081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
