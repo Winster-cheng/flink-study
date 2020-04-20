@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36cfaeab-6a23-4a58-b018-3db69a500039" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala" afterDir="false" />
-    </list>
+    <list default="true" id="36cfaeab-6a23-4a58-b018-3db69a500039" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,6 +159,7 @@
       <workItem from="1586992937297" duration="550000" />
       <workItem from="1587068157437" duration="268000" />
       <workItem from="1587150726975" duration="830000" />
+      <workItem from="1587344047939" duration="40000" />
     </task>
     <servers />
   </component>
