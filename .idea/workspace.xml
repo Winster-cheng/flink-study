@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36cfaeab-6a23-4a58-b018-3db69a500039" name="Default Changelist" comment="" />
+    <list default="true" id="36cfaeab-6a23-4a58-b018-3db69a500039" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/class/src/main/scala/com/baiyan/class05/DataSource/fromcollection/FromCollection1.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,6 +192,9 @@
       <workItem from="1590658989056" duration="637000" />
       <workItem from="1590728832693" duration="102000" />
       <workItem from="1590812986378" duration="240000" />
+      <workItem from="1590954765860" duration="325000" />
+      <workItem from="1591059461725" duration="4000" />
+      <workItem from="1591687887045" duration="344000" />
     </task>
     <servers />
   </component>
